@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		099BD0B02B31FCA90087DA2E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099BD0AF2B31FCA90087DA2E /* ContentViewModel.swift */; };
 		099BD0B22B31FE320087DA2E /* UrlComponentConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099BD0B12B31FE320087DA2E /* UrlComponentConstants.swift */; };
 		099BD0B52B31FF470087DA2E /* AcronymObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099BD0B42B31FF470087DA2E /* AcronymObject.swift */; };
 		099BD0B82B3200060087DA2E /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099BD0B72B3200060087DA2E /* CustomErrors.swift */; };
 		099BD0BB2B3200970087DA2E /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099BD0BA2B3200970087DA2E /* NetworkingService.swift */; };
+		099BD0C02B3224E60087DA2E /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099BD0BF2B3224E60087DA2E /* ContentViewModel.swift */; };
 		09EA39952B31E64400EA683D /* CombineWithSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EA39942B31E64400EA683D /* CombineWithSwiftUIApp.swift */; };
 		09EA39972B31E64400EA683D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EA39962B31E64400EA683D /* ContentView.swift */; };
 		09EA39992B31E64700EA683D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09EA39982B31E64700EA683D /* Assets.xcassets */; };
@@ -19,12 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		099BD0AF2B31FCA90087DA2E /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		099BD0B12B31FE320087DA2E /* UrlComponentConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlComponentConstants.swift; sourceTree = "<group>"; };
 		099BD0B42B31FF470087DA2E /* AcronymObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcronymObject.swift; sourceTree = "<group>"; };
 		099BD0B72B3200060087DA2E /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
 		099BD0BA2B3200970087DA2E /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
 		099BD0BD2B32014E0087DA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		099BD0BF2B3224E60087DA2E /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentViewModel.swift; path = CombineWithSwiftUI/NetworkingManager/ContentViewModel.swift; sourceTree = SOURCE_ROOT; };
 		09EA39912B31E64400EA683D /* CombineWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EA39942B31E64400EA683D /* CombineWithSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineWithSwiftUIApp.swift; sourceTree = "<group>"; };
 		09EA39962B31E64400EA683D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +75,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		099BD0BE2B32076D0087DA2E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				099BD0BF2B3224E60087DA2E /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		09EA39882B31E64400EA683D = {
 			isa = PBXGroup;
 			children = (
@@ -94,13 +102,13 @@
 		09EA39932B31E64400EA683D /* CombineWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				099BD0BE2B32076D0087DA2E /* ViewModels */,
 				099BD0BD2B32014E0087DA2E /* Info.plist */,
 				099BD0BC2B3200C80087DA2E /* Views */,
 				099BD0B92B32007D0087DA2E /* NetworkingManager */,
 				099BD0B62B31FFC70087DA2E /* CustomErrors */,
 				099BD0B32B31FF340087DA2E /* Models */,
 				09EA39942B31E64400EA683D /* CombineWithSwiftUIApp.swift */,
-				099BD0AF2B31FCA90087DA2E /* ContentViewModel.swift */,
 				099BD0B12B31FE320087DA2E /* UrlComponentConstants.swift */,
 				09EA39982B31E64700EA683D /* Assets.xcassets */,
 				09EA399A2B31E64700EA683D /* Preview Content */,
@@ -189,8 +197,8 @@
 				09EA39972B31E64400EA683D /* ContentView.swift in Sources */,
 				099BD0B82B3200060087DA2E /* CustomErrors.swift in Sources */,
 				099BD0B22B31FE320087DA2E /* UrlComponentConstants.swift in Sources */,
+				099BD0C02B3224E60087DA2E /* ContentViewModel.swift in Sources */,
 				09EA39952B31E64400EA683D /* CombineWithSwiftUIApp.swift in Sources */,
-				099BD0B02B31FCA90087DA2E /* ContentViewModel.swift in Sources */,
 				099BD0BB2B3200970087DA2E /* NetworkingService.swift in Sources */,
 				099BD0B52B31FF470087DA2E /* AcronymObject.swift in Sources */,
 			);
